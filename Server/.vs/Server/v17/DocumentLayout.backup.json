@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2020698\\source\\repos\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\helper\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\dto\\createtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\dto\\createtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\dto\\updatetransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\dto\\updatetransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|c:\\users\\2020698\\source\\repos\\server\\server\\migrations\\20250131050216_addtypefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F46C4A2-BD39-4579-8F7B-C24D67440934}|Server\\Server.csproj|solutionrelative:server\\migrations\\20250131050216_addtypefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1559058043:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:579856920:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:48:34.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Server\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Entities\\User.cs",
+              "RelativeToolTip": "Server\\Entities\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:35:11.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Helper\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Server\\Helper\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Helper\\JwtHelper.cs",
+              "RelativeToolTip": "Server\\Helper\\JwtHelper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:33:21.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA0wFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T11:34:31.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250131050216_AddTypeField.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Migrations\\20250131050216_AddTypeField.cs",
+              "RelativeDocumentMoniker": "Server\\Migrations\\20250131050216_AddTypeField.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Migrations\\20250131050216_AddTypeField.cs",
+              "RelativeToolTip": "Server\\Migrations\\20250131050216_AddTypeField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:02:16.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Dto\\UpdateTransactionDto.cs",
+              "RelativeDocumentMoniker": "Server\\Dto\\UpdateTransactionDto.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Dto\\UpdateTransactionDto.cs",
+              "RelativeToolTip": "Server\\Dto\\UpdateTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T17:15:58.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateTransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Dto\\CreateTransactionDto.cs",
+              "RelativeDocumentMoniker": "Server\\Dto\\CreateTransactionDto.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Dto\\CreateTransactionDto.cs",
+              "RelativeToolTip": "Server\\Dto\\CreateTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:50:15.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Server\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAAwLUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T14:34:54.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Dto\\TransactionDto.cs",
+              "RelativeDocumentMoniker": "Server\\Dto\\TransactionDto.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Dto\\TransactionDto.cs",
+              "RelativeToolTip": "Server\\Dto\\TransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:56:15.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "Server\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\2020698\\source\\repos\\Server\\Server\\Entities\\Transaction.cs",
+              "RelativeToolTip": "Server\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:42:49.433Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
