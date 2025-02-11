@@ -8,7 +8,6 @@ using Server.Data;
 using Server.Dto;
 using static Server.Entities.Transaction;
 
-
 namespace Server.Controllers
 {
     [Route("api/transaction")]
