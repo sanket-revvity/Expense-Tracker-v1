@@ -8,6 +8,7 @@ using Server.Data;
 using Server.Dto;
 using static Server.Entities.Transaction;
 
+
 namespace Server.Controllers
 {
     [Route("api/transaction")]
@@ -195,6 +196,26 @@ namespace Server.Controllers
                 Balance = balance
             });
         }
+
+        [HttpGet("cat-spend")]
+        public async Task<IActionResult> GetCategoryWiseSpending()
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value); 
+
+            var categoryWiseSpending = await context.Transactions
+                .Where(t => t.UserId == userId && t.Type == TransactionType.Expense) // Filter transaction for logged in user and type of transaction
+                .GroupBy(t => new { t.CategoryId, t.Category.Name }) // Groupby categoryId and categoryName
+                .Select(g => new
+                {
+                    CategoryId = g.Key.CategoryId,
+                    CategoryName = g.Key.Name,
+                    TotalAmount = g.Sum(t => t.Amount) 
+                })
+                .ToListAsync();
+
+            return Ok(categoryWiseSpending);
+        }
+
 
     }
 }
