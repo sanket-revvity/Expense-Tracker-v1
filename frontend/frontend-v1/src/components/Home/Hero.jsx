@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/Dashboard.png";
+import img from "../../assets/Dashboard.jpeg";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
