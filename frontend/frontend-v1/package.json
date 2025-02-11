@@ -13,6 +13,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.2",
+    "@radix-ui/colors": "^3.0.0",
     "@tailwindcss/vite": "^4.0.1",
     "antd": "^5.23.3",
     "axios": "^1.7.9",
@@ -20,12 +21,15 @@
     "date-fns": "^4.1.0",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.474.0",
+    "radix-ui": "^1.1.2",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.3.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-router": "^7.1.4",
     "react-router-dom": "^7.1.4",
     "react-toastify": "^11.0.3",
+    "react-type-animation": "^3.2.0",
     "tailwindcss": "^4.0.1"
   },
   "devDependencies": {

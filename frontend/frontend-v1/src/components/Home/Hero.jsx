@@ -1,40 +1,65 @@
-import React from 'react'
-import img from '../../assets/Dashboard.png'
+import React from "react";
+import img from "../../assets/Dashboard.png";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section class="bg-gray-50 flex items-center flex-col">
-  <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex">
-    <div class="mx-auto max-w-xl text-center">
-      <h1 class="text-3xl font-extrabold sm:text-5xl">
-        Manage Your Expense
-        <strong class="font-extrabold text-gray-500 sm:block"> Contol Your Money </strong>
-      </h1>
+    <section
+      className="bg-[radial-gradient(circle,#73737340_1px,transparent_1px)] 
+    bg-[size:12px_12px] flex items-center flex-col min-h-screen py-16"
+    >
+      <div className="mx-auto max-w-screen-xl px-6 lg:flex lg:items-center">
+        <div className="mx-auto max-w-2xl text-center">
+          <h1 className="text-4xl font-extrabold text-white sm:text-6xl leading-tight">
+            Manage Your Expense
+            <br />
+            <strong className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-700">
+              <TypeAnimation
+                sequence={[
+                  `Track Every Rupee`,
+                  2000,
+                  "Save More, Stress Less",
+                  2000,
+                  "Plan Your Future ",
+                  2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                style={{ display: "inline-block" }}
+                repeat={Infinity}
+              />
+            </strong>
+          </h1>
 
-      <p class="mt-4 sm:text-xl/relaxed">
-        Start managing your expenses with ease.
-      </p>
+          <p className="mt-4 text-lg text-slate-700">
+            Start managing your expenses effortlessly and take control of your
+            finances.
+          </p>
 
-      <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <a
-          class="block w-full rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-black focus:outline-none focus:ring active:bg-black-500 sm:w-auto"
-          href="#"
-        >
-          GET STARTED
-        </a>
+          <div className="mt-8 flex flex-wrap justify-center gap-6">
+            <a
+              className="block w-full sm:w-auto rounded-xl bg-gray-600 px-8 py-3 text-lg font-medium text-white shadow-lg hover:bg-black transform hover:scale-105 transition-all duration-300"
+              href="/dashboard"
+            >
+              GET STARTED 🚀
+            </a>
 
-        <a
-          class="block w-full rounded px-12 py-3 text-sm font-medium text-black shadow hover:text-black-700 focus:outline-none focus:ring active:text-black-500 sm:w-auto"
-          href="#"
-        >
-          Learn More
-        </a>
+            <button className="rounded-xl px-8 py-3 text-lg font-medium bg-gray-100 text-black shadow-lg hover:text-white hover:bg-black transform hover:scale-105 transition-all duration-300">
+              Learn More
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <img className="mt-1 rounded-xl border-2" src={img}alt ='dashboard' width={1000} height={700}/>
-</section>
-  )
+
+      <img
+        className="mt-8 rounded-xl border-2 border-gray-700 shadow-lg hover:shadow-gray-500 transition-all duration-300 hover:scale-105"
+        src={img}
+        alt="dashboard"
+        width={1000}
+        height={700}
+      />
+    </section>
+  );
 }
 
-export default Hero
+export default Hero;
